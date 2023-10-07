@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Young Serif', serif;
+	background: rgb(203,221,221);
+	/*Inicio los estilos header*/
+
+}
+.container{
+	width:100%;
+	height:100px;
+	background:#09CFC0;
+	}
+.menu{
+	background: skyblue;
+	width: 3000px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 4px 4px;
+	margin: 3px;
+	padding-left: 7%;
+	padding-bottom: 5px;
+	background: orange ;
+
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 3px;
+	padding: 15px 55px 15px 55px;
+}
